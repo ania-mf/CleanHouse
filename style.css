@@ -1,0 +1,408 @@
+body
+{ 
+background-image: url(/img/spring-cleaning-checklist-lead-getty-0323-2000-f41cb717819a4e858fb5188434f34f13.jpg);
+    background-repeat:repeat;
+    background-size:contain;
+width: 100%;
+background-color: rgb(140, 139, 139);
+
+
+}
+ .content {
+    display: flex;
+     flex-direction: column;
+     min-height: 100vh;}
+
+    .top-block {
+    
+    position: fixed;
+    top: 0px;
+    left: 0;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+     background-color: rgba(240, 240, 240, 0.6);
+    width: 100%;
+    height: 150px;
+    
+     transition: background-color 0.5s ease;}
+
+   .top-block:hover {
+   background-color: #E0FFFF;}
+    
+   
+.contact-information{
+    
+    display: inline-block;    
+    margin-left: 60%;
+    margin-top: 5px;
+    font-size: 24px;
+    text-align:justify;
+    position: absolute;
+    align-items: end;
+    justify-content: flex-end;
+    padding-right: 5px;
+    text-align: left;
+    
+
+    
+}
+.mail-logo{
+    text-decoration: none;
+    width: 30px;
+  
+}
+.mail-link-logo{
+    padding: 5px;
+       
+}
+
+.mail-link{
+    color: rgb(51, 66, 198);
+}
+.tel-link-logo{
+    padding: 5px;
+}
+
+.tel-number{color: rgb(51, 66, 198);
+}
+
+
+.logo{
+    display:flex;
+    width: 100%;
+    position: absolute;
+   }
+
+
+/*.logo-hedr{
+    position: absolute;
+    color: green;
+    text-transform:initial;
+    align-items:center;
+    text-decoration-line: underline;
+    font-style: italic;
+    margin-left:  12%;
+    padding:18px 4px;
+    font-size: 45px;
+    font-family:'Times New Roman', Times, serif;
+    text-shadow: 1px 1px;
+    font-weight: normal;
+   
+}*/
+
+.logo-img {
+    border-radius: 50%;
+    width: 148px;
+    height: 140px;
+    align-items:flex-start;
+}
+.logo-hedr{
+  display:inline-flex;
+  text-align: justify;
+  
+  justify-content: center;
+  height: 100px;
+  font-size: 70px;
+  filter: blur(0.5px);
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5),
+  0px 0px 6px rgba(255, 255, 255, 0.8);
+  animation: color-change 2s infinite alternate;}
+
+  .logo-hedr{transition: color 10s ease-in-out;}
+
+   .logo-hedr:hover {
+    color: #ffffff;
+}
+@keyframes color-change {
+    0% {
+        color: #FFFFFF;
+    }
+
+    50% {
+        color: ##FFFAFA;
+    }
+
+    100% {
+        color: #ADD8E6;
+    }
+}
+
+.opportunity-bar{
+display: inline-block;
+position: absolute;
+width: 50%;  
+margin-top: 50px;
+margin-left: 50%;
+text-justify:inter-word;
+text-align:end;
+justify-content: flex-end;
+
+      
+}
+.opportunity{
+    align-items: flex-start;
+    text-align:left;
+    
+    position: absolute; 
+     text-justify: inter-word;}   
+  
+
+  .opportunity-list {
+    display: inline-block;
+    list-style-type:none;
+    text-justify: distribute-all-lines;
+    text-decoration: none;
+    padding: 0 30px;
+    font-size: 28px;
+    align-items:center;
+    text-align: justify;
+    color: rgb(67, 64, 64);
+    font-family: 'Times New Roman', Times, serif;
+         
+
+  }
+
+  .list{
+    text-decoration: none;
+    color: black;
+  }
+  .list:hover{
+    color: rgb(48, 11, 181);
+  }
+
+  .about-us{
+    margin-top: 20%;
+    text-align: center;
+    font-size: 72px;
+    color: rgb(20, 10, 10);
+    font-family: 'Times New Roman', Times, serif;
+   
+        font-style:normal;
+        line-height:10vh;
+        text-transform:capitalize;
+        text-shadow: 2px 2px #ffffff;
+        letter-spacing:4px;
+
+  }
+/* Advantage section*/
+
+  .advantage{
+    margin-top: 400px;
+    background-color:rgb(222, 233, 214);
+
+    
+  }
+  .advantage-header{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-decoration:underline;
+   text-align: center;
+   font-size: 72px;
+  }
+ .advantage-list{
+    
+    list-style-type:none ;
+   
+ }
+ .discount{
+    display: inline-block;
+    margin-top: 10px;
+
+ }
+ .discount-img{
+    border-radius: 50%;
+    width: 50px;
+    height: auto;
+   margin-bottom: 15px;
+   padding-bottom:15px ;
+    
+
+ }
+
+ .discount-content{
+    text-align:justify;
+    position: absolute;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-size: 24px;
+    font-style:normal;
+    line-height:20px;
+ }
+
+
+
+ /*section services*/
+ .Our-services{
+
+margin-top: 200px;
+background-color:rgb(222, 233, 214);}
+
+.services-header{
+    margin-left: 20px;
+    margin-bottom: 50px;
+   text-decoration: underline;
+    text-align: center;
+        font-size: 72px;
+
+}
+
+/*
+ .services-img{
+    border-radius: 50%;
+        width: 50px;
+        height: auto;
+        margin-bottom: 15px;
+        padding-bottom: 15px;
+
+ }
+
+ .services-list{
+    display: inline-block;
+    list-style-type: none;
+ } 
+
+  }*/
+
+  .photo-container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 10px;
+  }
+  
+
+  .photo-container .photo-img-logo {
+      position: relative;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  .photo-container .photo-img-logo img {
+    width: 800px;
+        height: 550px;
+  }
+
+  .photo-container .photo-img-logo .service-content {
+      position: absolute;
+      bottom: 10px;
+      left: 0;
+      width: 100%;
+      
+      color: #000;
+      padding: 5px;
+      margin: 0;
+      text-align:center;
+  }
+
+  .service-content {
+      text-align: justify;
+      position: absolute;
+      padding-top: 10px;
+      padding-left: 10px;
+      font-size: 36px;
+      font-style:normal;
+      font-weight: bold;
+    text-shadow: 2px 2px #ffffff;
+      
+    }
+
+
+ /*price*/
+ .price{
+    margin-top: 100px;
+    background-color: rgb(222, 233, 214);
+    }
+
+ 
+ .header-price{
+    margin-left: 20px;
+    margin-bottom: 50px;
+    text-decoration: underline;
+    text-align: center;
+        font-size: 72px;
+
+ }
+ .regular-price{
+    text-align: justify;
+    margin-left: 10px;
+   font-size: 24px;
+    font-style: normal;
+    line-height: 20px;
+    
+ }
+ .amount{
+    font-size: 24px;
+ }
+ .additional-price {
+    text-align: justify;
+        margin-left: 10px;
+        font-size: 24px;
+        font-style: normal;
+        line-height: 20px;
+ }
+.additional-price-list{
+    text-align: justify;
+        margin-left: 10px;
+        font-size: 24px;
+        font-style: normal;
+        
+
+}
+.footer-section-information{
+    margin-top: 100px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    background-color: rgb(246, 237, 237);
+    border-radius: 2%;
+    }
+
+    .location{
+        text-align: center;     
+        margin-left: 10px;
+        font-size: 24px;
+        font-style: oblique;}
+
+        .contact-mail-footer{
+            text-align: center;
+
+        }
+        .contact-tel-footer{
+            text-align: center;
+
+        }
+        
+.mail-footer {
+    
+    text-align: center;
+        margin-left: 10px;
+        font-size: 24px;
+        font-style:oblique;       
+
+}
+.tel-footer{
+    text-align: center;
+        margin-left: 10px;
+        font-size: 24px;
+        font-style: oblique;
+
+}
+.mail-footer-link{
+    text-decoration: none;
+    font-size: 24px;
+    text-align: center;
+    color: #000;
+     
+}
+.mail-footer-link:hover{
+    color: #2c21f4
+
+}
+.tel-footer-number{
+    text-decoration: none;
+        font-size: 24px;
+        text-align: center;
+        color: #000;
+
+}
+.tel-footer-number:hover{
+    color: #2c21f4
+}
