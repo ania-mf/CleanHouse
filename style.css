@@ -1,17 +1,22 @@
+
+
+
 body
 { 
 background-image: url(/img/spring-cleaning-checklist-lead-getty-0323-2000-f41cb717819a4e858fb5188434f34f13.jpg);
     background-repeat:repeat;
     background-size:contain;
-width: 100%;
+max-width: 100%;
 background-color: rgb(140, 139, 139);
+
 
 
 }
  .content {
     display: flex;
      flex-direction: column;
-     min-height: 100vh;}
+     min-height: 100vh;
+    max-width: 100%}
 
     .top-block {
     
@@ -31,12 +36,12 @@ background-color: rgb(140, 139, 139);
    
 .contact-information{
     
-    display: inline-block;    
+    display: flex;  
     margin-left: 60%;
     margin-top: 5px;
     font-size: 24px;
     text-align:justify;
-    position: absolute;
+   
     align-items: end;
     justify-content: flex-end;
     padding-right: 5px;
@@ -48,21 +53,26 @@ background-color: rgb(140, 139, 139);
 .mail-logo{
     text-decoration: none;
     width: 30px;
+    display: flex;
   
 }
 .mail-link-logo{
     padding: 5px;
+    display: flex;
        
 }
 
 .mail-link{
     color: rgb(51, 66, 198);
+    display: flex;
 }
 .tel-link-logo{
     padding: 5px;
+    display: flex;
 }
 
 .tel-number{color: rgb(51, 66, 198);
+    display: flex;
 }
 
 
@@ -98,6 +108,7 @@ background-color: rgb(140, 139, 139);
 .logo-hedr{
   display:inline-flex;
   text-align: justify;
+
   
   justify-content: center;
   height: 100px;
@@ -127,7 +138,7 @@ background-color: rgb(140, 139, 139);
 }
 
 .opportunity-bar{
-display: inline-block;
+display: flex;
 position: absolute;
 width: 50%;  
 margin-top: 50px;
@@ -141,9 +152,8 @@ justify-content: flex-end;
 .opportunity{
     align-items: flex-start;
     text-align:left;
-    
-    position: absolute; 
-     text-justify: inter-word;}   
+    display: flex;    
+    text-justify: inter-word;}   
   
 
   .opportunity-list {
@@ -162,6 +172,7 @@ justify-content: flex-end;
   }
 
   .list{
+    display: flex;
     text-decoration: none;
     color: black;
   }
@@ -176,13 +187,18 @@ justify-content: flex-end;
     color: rgb(20, 10, 10);
     font-family: 'Times New Roman', Times, serif;
    
-        font-style:normal;
-        line-height:10vh;
-        text-transform:capitalize;
-        text-shadow: 2px 2px #ffffff;
-        letter-spacing:4px;
-
+      
   }
+.about-us-information{
+    font-style: normal;
+        line-height: 10vh;
+        text-transform: capitalize;
+        text-shadow: 2px 2px #ffffff;
+        letter-spacing: 4px;
+        display: flex;
+
+}
+      
 /* Advantage section*/
 
   .advantage{
@@ -231,6 +247,7 @@ justify-content: flex-end;
 
 
  /*section services*/
+
  .Our-services{
 
 margin-top: 200px;
@@ -275,10 +292,12 @@ background-color:rgb(222, 233, 214);}
       justify-content: center;
       align-items: center;
   }
+  
 
   .photo-container .photo-img-logo img {
     width: 800px;
-        height: 550px;
+    height: 550px;
+    
   }
 
   .photo-container .photo-img-logo .service-content {
@@ -406,3 +425,4 @@ background-color:rgb(222, 233, 214);}
 .tel-footer-number:hover{
     color: #2c21f4
 }
+
